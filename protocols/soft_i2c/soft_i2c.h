@@ -107,7 +107,7 @@ typedef struct {
 /** @brief Operation completed successfully / ACK received from slave. */
 #define SOFT_I2C_OK    (0U)
 
-/** @brief No acknowledgment received from slave (NACK or timeout). */
+/** @brief No acknowledgment received from slave (NACK). */
 #define SOFT_I2C_NACK  (1U)
 
 /* -------------------------------------------------------------------------
