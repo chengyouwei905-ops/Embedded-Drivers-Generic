@@ -7,7 +7,8 @@ The library follows a **Hardware Abstraction Layer (HAL)** approach: every
 driver is completely decoupled from MCU registers.  Hardware-specific
 operations (GPIO toggling, delays, SPI/I2C primitives) are injected at
 run-time through *handle structs* containing function pointers, so the same
-driver binary can run on any platform without recompilation.
+driver source/API can be reused across platforms, with only the platform
+layer needing adaptation and the project recompiled for the target MCU.
 
 ---
 
