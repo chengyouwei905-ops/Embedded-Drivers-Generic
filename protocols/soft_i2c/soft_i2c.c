@@ -15,8 +15,8 @@
 
 /**
  * Half-period delay used between every clock edge.
- * A value of 2 us gives a theoretical ~250 kHz SCL; tune via the
- * delay_us callback if a lower clock rate is required.
+ * A value of 2 us gives a theoretical ~250 kHz SCL.
+ * To use a lower clock rate, change this compile-time constant.
  */
 #define I2C_HALF_PERIOD_US (2U)
 
